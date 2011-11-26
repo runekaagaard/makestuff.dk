@@ -1,0 +1,66 @@
+$header_height = 300px
+$font_size_big = 80px
+$Phi = 1.6180339
+
+$green = #20E83A
+$blue1 = #2363FF
+$yellow = #FFCC30
+$red = #E82028
+$blue2 = #1924FF
+$orange = #EF7922
+$earth = #8C1600
+$light_black = #24221F
+$grey = #3D3E42
+$white = #E7E7E7
+$black = #222
+
+header
+    -webkit-box-shadow: #666 0px 2px 3px
+    -moz-box-shadow: #666 0px 2px 3px
+    box-shadow: #666 0px 2px 3px
+    background: #0b9693
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0b9693), to(#4FB3B1))
+    background: -webkit-linear-gradient(#0b9693, #4FB3B1)
+    background: -moz-linear-gradient(#0b9693, #4FB3B1)
+    background: -ms-linear-gradient(#0b9693, #4FB3B1)
+    background: -o-linear-gradient(#0b9693, #4FB3B1)
+    background: linear-gradient(#0b9693, #4FB3B1)
+    -pie-background: linear-gradient(#0b9693, #4FB3B1)
+    behavior: url(/PIE.htc)
+    
+    height: $header_height - $font_size_big
+    padding-top: $font_size_big / $Phi
+    margin-bottom: 20px
+
+    &,h1
+        color: white
+    
+    h1
+        padding-left: 40px
+        text-align: left
+        font-size: $font_size_big
+        margin-bottom: 40px
+    
+    .make
+        color: $light_black
+
+    .stuff
+        color: #FFCC30
+
+    div
+        padding-left: 40px
+        font-size: $font_size_big / 2.5
+        line-height: $font_size_big / 2.5 * 1.1
+        
+        color: $red
+
+        span
+            color: white
+
+body
+    background-color: $white
+    color: $black
+
+.image
+    height: 171px
+    border: 1px solid grey

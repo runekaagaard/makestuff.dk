@@ -1,0 +1,42 @@
+header {
+  -webkit-box-shadow: #666666 0px 2px 3px;
+  -moz-box-shadow: #666666 0px 2px 3px;
+  box-shadow: #666666 0px 2px 3px;
+  background: #0b9693;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0b9693), to(#4fb3b1));
+  background: -webkit-linear-gradient(#0b9693, #4fb3b1);
+  background: -moz-linear-gradient(#0b9693, #4fb3b1);
+  background: -ms-linear-gradient(#0b9693, #4fb3b1);
+  background: -o-linear-gradient(#0b9693, #4fb3b1);
+  background: linear-gradient(#0b9693, #4fb3b1);
+  -pie-background: linear-gradient(#0b9693, #4fb3b1);
+  behavior: url(/PIE.htc);
+  height: 220px;
+  padding-top: 49.443px;
+  margin-bottom: 20px; }
+  header, header h1 {
+    color: white; }
+  header h1 {
+    padding-left: 40px;
+    text-align: left;
+    font-size: 80px;
+    margin-bottom: 40px; }
+  header .make {
+    color: #24221f; }
+  header .stuff {
+    color: #ffcc30; }
+  header div {
+    padding-left: 40px;
+    font-size: 32px;
+    line-height: 35.2px;
+    color: #e82028; }
+    header div span {
+      color: white; }
+
+body {
+  background-color: #e7e7e7;
+  color: #222222; }
+
+.image {
+  height: 171px;
+  border: 1px solid grey; }
