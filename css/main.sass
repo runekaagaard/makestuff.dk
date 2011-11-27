@@ -1,18 +1,18 @@
-$header_height = 300px
+$header_height = 260px
 $font_size_big = 80px
 $Phi = 1.6180339
 
 $green = #20E83A
 $blue1 = #2363FF
 $yellow = #FFCC30
-$red = #E82028
+$red = #FF000A
 $blue2 = #1924FF
 $orange = #EF7922
 $earth = #8C1600
 $light_black = #24221F
 $grey = #3D3E42
 $white = #E7E7E7
-$black = #222
+$black = #111
 
 header
     -webkit-box-shadow: #666 0px 2px 3px
@@ -30,10 +30,10 @@ header
     
     height: $header_height - $font_size_big
     padding-top: $font_size_big / $Phi
-    margin-bottom: 20px
+    margin-bottom: 40px
 
     &,h1
-        color: white
+        color: $white
     
     h1
         padding-left: 40px
@@ -55,12 +55,29 @@ header
         color: $red
 
         span
-            color: white
+            color: $white
+
+h2
+    color: $black
+
+p
+    color: #555
+    font-size: 14px
+    line-height: 18px
 
 body
     background-color: $white
     color: $black
 
-.image
-    height: 171px
-    border: 1px solid grey
+    img
+        
+        width: 100%
+
+    // http://blog.themeforest.net/tutorials/vertical-centering-with-css/
+
+    .product
+        padding-top: 20px
+        
+    
+        
+            

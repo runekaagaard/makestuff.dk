@@ -11,11 +11,11 @@ header {
   background: linear-gradient(#0b9693, #4fb3b1);
   -pie-background: linear-gradient(#0b9693, #4fb3b1);
   behavior: url(/PIE.htc);
-  height: 220px;
+  height: 180px;
   padding-top: 49.443px;
-  margin-bottom: 20px; }
+  margin-bottom: 40px; }
   header, header h1 {
-    color: white; }
+    color: #e7e7e7; }
   header h1 {
     padding-left: 40px;
     text-align: left;
@@ -29,14 +29,22 @@ header {
     padding-left: 40px;
     font-size: 32px;
     line-height: 35.2px;
-    color: #e82028; }
+    color: #ff000a; }
     header div span {
-      color: white; }
+      color: #e7e7e7; }
+
+h2 {
+  color: #111111; }
+
+p {
+  color: #555555;
+  font-size: 14px;
+  line-height: 18px; }
 
 body {
   background-color: #e7e7e7;
-  color: #222222; }
-
-.image {
-  height: 171px;
-  border: 1px solid grey; }
+  color: #111111; }
+  body img {
+    width: 100%; }
+  body .product {
+    padding-top: 20px; }
