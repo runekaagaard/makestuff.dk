@@ -8,6 +8,10 @@
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         %link{:href => "http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css", :rel => "stylesheet"}
         %link{:href => "css/main.css", :rel => "stylesheet"}
+
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+        <script type='text/javascript' src='js/main.js'></script>
+        
     %body
         %header
             %h1
@@ -19,7 +23,6 @@
                 having fun
   
     .container
-        
         .row
             .span2
                 &nbsp;
@@ -29,13 +32,40 @@
                 &nbsp;
             .span6
                 .product
+                    %h2
+                        Live performances
+                    %p 
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                        Donec odio. Quisque volutpat mattis eros. Malesuada erat ut 
+                        turpis. Suspendisse urna nibh, viverra non, semper suscipit, 
+                        posuere a, pede. <a href="#">Read more</a>.
+            .span2
+                &nbsp;
+        
+        %br
+        %hr
+        %br
+        .row
+            .span2
+                &nbsp;
+            .span6
+                .product
                     .product_inner
                         %h2
-                            Live performances
+                            Computer games
                         %p 
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
                             Donec odio. Quisque volutpat mattis eros. Malesuada erat ut 
                             turpis. Suspendisse urna nibh, viverra non, semper suscipit, 
                             posuere a, pede. <a href="#">Read more</a>.
+            .span1
+                &nbsp;
+            .span5
+                %img{'src' => 'http://2.bp.blogspot.com/_GG7mioDOs4s/TSh9FhOVaeI/AAAAAAAAA2U/wwzrmziaEJw/s1600/NEW_DataProcessing.jpg',
+                     'height' => '185px', 'width' => '360px'}
             .span2
                 &nbsp;
+
+        %br
+        %hr
+        %br
